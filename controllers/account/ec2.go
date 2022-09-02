@@ -12,10 +12,10 @@ import (
 	"github.com/aws/aws-sdk-go/service/servicequotas"
 	"github.com/aws/aws-sdk-go/service/sts"
 	"github.com/go-logr/logr"
-	awsv1alpha1 "github.com/openshift/aws-account-operator/api/v1alpha1"
-	"github.com/openshift/aws-account-operator/config"
-	"github.com/openshift/aws-account-operator/pkg/awsclient"
-	controllerutils "github.com/openshift/aws-account-operator/pkg/utils"
+	awsv1alpha1 "github.com/ravitri/aws-account-operator/api/v1alpha1"
+	"github.com/ravitri/aws-account-operator/config"
+	"github.com/ravitri/aws-account-operator/pkg/awsclient"
+	controllerutils "github.com/ravitri/aws-account-operator/pkg/utils"
 
 	retry "github.com/avast/retry-go"
 )

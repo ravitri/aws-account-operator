@@ -16,10 +16,10 @@ import (
 	logf "sigs.k8s.io/controller-runtime/pkg/log"
 	"sigs.k8s.io/controller-runtime/pkg/reconcile"
 
-	awsv1alpha1 "github.com/openshift/aws-account-operator/api/v1alpha1"
-	"github.com/openshift/aws-account-operator/config"
-	"github.com/openshift/aws-account-operator/pkg/awsclient"
-	"github.com/openshift/aws-account-operator/pkg/utils"
+	awsv1alpha1 "github.com/ravitri/aws-account-operator/api/v1alpha1"
+	"github.com/ravitri/aws-account-operator/config"
+	"github.com/ravitri/aws-account-operator/pkg/awsclient"
+	"github.com/ravitri/aws-account-operator/pkg/utils"
 )
 
 const (

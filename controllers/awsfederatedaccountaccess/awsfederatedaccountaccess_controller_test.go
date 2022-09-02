@@ -12,10 +12,10 @@ import (
 
 	"github.com/golang/mock/gomock"
 
-	awsv1alpha1 "github.com/openshift/aws-account-operator/api/v1alpha1"
-	"github.com/openshift/aws-account-operator/pkg/awsclient/mock"
-	"github.com/openshift/aws-account-operator/pkg/testutils"
-	"github.com/openshift/aws-account-operator/pkg/utils"
+	awsv1alpha1 "github.com/ravitri/aws-account-operator/api/v1alpha1"
+	"github.com/ravitri/aws-account-operator/pkg/awsclient/mock"
+	"github.com/ravitri/aws-account-operator/pkg/testutils"
+	"github.com/ravitri/aws-account-operator/pkg/utils"
 	"github.com/stretchr/testify/assert"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/runtime"

@@ -134,8 +134,8 @@ test-awsfederatedrole: check-aws-account-id-env ## Test Federated Access Roles
 	# Test Federated Account Access
 	test/integration/create_awsfederatedaccountaccess.sh --role read-only --name test-federated-user-readonly
 	test/integration/create_awsfederatedaccountaccess.sh --role network-mgmt --name test-federated-user-network-mgmt
-	TEST_CR=test-federated-user-readonly TEST_ROLE_FILE=test/deploy/aws.managed.openshift.io_v1alpha1_awsfederatedrole_readonly_cr.yaml go test github.com/openshift/aws-account-operator/test/integration
-	TEST_CR=test-federated-user-network-mgmt TEST_ROLE_FILE=test/deploy/aws.managed.openshift.io_v1alpha1_awsfederatedrole_networkmgmt_cr.yaml go test github.com/openshift/aws-account-operator/test/integration
+	TEST_CR=test-federated-user-readonly TEST_ROLE_FILE=test/deploy/aws.managed.openshift.io_v1alpha1_awsfederatedrole_readonly_cr.yaml go test github.com/ravitri/aws-account-operator/test/integration
+	TEST_CR=test-federated-user-network-mgmt TEST_ROLE_FILE=test/deploy/aws.managed.openshift.io_v1alpha1_awsfederatedrole_networkmgmt_cr.yaml go test github.com/ravitri/aws-account-operator/test/integration
 	test/integration/delete_awsfederatedaccountaccess.sh --role read-only --name test-federated-user-readonly
 	test/integration/delete_awsfederatedaccountaccess.sh --role network-mgmt --name test-federated-user-network-mgmt
 	# Delete network-mgmt role

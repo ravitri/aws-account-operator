@@ -10,8 +10,8 @@ import (
 	corev1 "k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/types"
 
-	awsv1alpha1 "github.com/openshift/aws-account-operator/api/v1alpha1"
-	awsclient "github.com/openshift/aws-account-operator/pkg/awsclient"
+	awsv1alpha1 "github.com/ravitri/aws-account-operator/api/v1alpha1"
+	awsclient "github.com/ravitri/aws-account-operator/pkg/awsclient"
 )
 
 // MoveAccountToOU takes care of all the logic surrounding moving an account into an OU

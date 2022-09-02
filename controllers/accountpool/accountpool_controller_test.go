@@ -17,9 +17,9 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/client/fake"
 	"sigs.k8s.io/controller-runtime/pkg/reconcile"
 
-	awsaccountapis "github.com/openshift/aws-account-operator/api"
-	awsv1alpha1 "github.com/openshift/aws-account-operator/api/v1alpha1"
-	"github.com/openshift/aws-account-operator/pkg/localmetrics"
+	awsaccountapis "github.com/ravitri/aws-account-operator/api"
+	awsv1alpha1 "github.com/ravitri/aws-account-operator/api/v1alpha1"
+	"github.com/ravitri/aws-account-operator/pkg/localmetrics"
 )
 
 type mocks struct {

@@ -4,8 +4,8 @@ import (
 	"context"
 
 	"github.com/go-logr/logr"
-	awsv1alpha1 "github.com/openshift/aws-account-operator/api/v1alpha1"
-	controllerutils "github.com/openshift/aws-account-operator/pkg/utils"
+	awsv1alpha1 "github.com/ravitri/aws-account-operator/api/v1alpha1"
+	controllerutils "github.com/ravitri/aws-account-operator/pkg/utils"
 )
 
 func (r *AccountReconciler) addFinalizer(reqLogger logr.Logger, account *awsv1alpha1.Account) error {

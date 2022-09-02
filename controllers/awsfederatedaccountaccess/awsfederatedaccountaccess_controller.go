@@ -12,7 +12,7 @@ import (
 	"github.com/aws/aws-sdk-go/service/iam"
 	"github.com/aws/aws-sdk-go/service/sts"
 
-	controllerutils "github.com/openshift/aws-account-operator/pkg/utils"
+	controllerutils "github.com/ravitri/aws-account-operator/pkg/utils"
 	corev1 "k8s.io/api/core/v1"
 	k8serr "k8s.io/apimachinery/pkg/api/errors"
 	"k8s.io/apimachinery/pkg/runtime"
@@ -25,9 +25,9 @@ import (
 
 	"github.com/go-logr/logr"
 
-	awsv1alpha1 "github.com/openshift/aws-account-operator/api/v1alpha1"
-	"github.com/openshift/aws-account-operator/config"
-	"github.com/openshift/aws-account-operator/pkg/awsclient"
+	awsv1alpha1 "github.com/ravitri/aws-account-operator/api/v1alpha1"
+	"github.com/ravitri/aws-account-operator/config"
+	"github.com/ravitri/aws-account-operator/pkg/awsclient"
 )
 
 const (

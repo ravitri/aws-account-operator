@@ -14,7 +14,7 @@ import (
 	sts "github.com/aws/aws-sdk-go/service/sts"
 	support "github.com/aws/aws-sdk-go/service/support"
 	gomock "github.com/golang/mock/gomock"
-	awsclient "github.com/openshift/aws-account-operator/pkg/awsclient"
+	awsclient "github.com/ravitri/aws-account-operator/pkg/awsclient"
 	reflect "reflect"
 	client "sigs.k8s.io/controller-runtime/pkg/client"
 )

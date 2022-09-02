@@ -28,11 +28,11 @@ import (
 	"github.com/go-logr/logr"
 	"github.com/rkt/rkt/tests/testutils/logger"
 
-	awsv1alpha1 "github.com/openshift/aws-account-operator/api/v1alpha1"
-	"github.com/openshift/aws-account-operator/config"
-	"github.com/openshift/aws-account-operator/pkg/awsclient"
-	"github.com/openshift/aws-account-operator/pkg/totalaccountwatcher"
-	"github.com/openshift/aws-account-operator/pkg/utils"
+	awsv1alpha1 "github.com/ravitri/aws-account-operator/api/v1alpha1"
+	"github.com/ravitri/aws-account-operator/config"
+	"github.com/ravitri/aws-account-operator/pkg/awsclient"
+	"github.com/ravitri/aws-account-operator/pkg/totalaccountwatcher"
+	"github.com/ravitri/aws-account-operator/pkg/utils"
 )
 
 var log = logf.Log.WithName("controller_account")

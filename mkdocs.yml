@@ -1,7 +1,7 @@
 site_name: aws-account-operator
 site_description: 'Documentation for aws-account-operator'
 site_url: https://openshift.github.io/aws-account-operator/
-repo_url: https://github.com/openshift/aws-account-operator
+repo_url: https://github.com/ravitri/aws-account-operator
 theme:
   name: material
 markdown_extensions:

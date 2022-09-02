@@ -1,8 +1,8 @@
 # AWS Account Operator
 
 [![codecov](https://codecov.io/gh/openshift/aws-account-operator/branch/master/graph/badge.svg)](https://codecov.io/gh/openshift/aws-account-operator)
-[![Go Report Card](https://goreportcard.com/badge/github.com/openshift/aws-account-operator)](https://goreportcard.com/report/github.com/openshift/aws-account-operator)
-[![GoDoc](https://godoc.org/github.com/openshift/aws-account-operator?status.svg)](https://pkg.go.dev/mod/github.com/openshift/aws-account-operator)
+[![Go Report Card](https://goreportcard.com/badge/github.com/ravitri/aws-account-operator)](https://goreportcard.com/report/github.com/ravitri/aws-account-operator)
+[![GoDoc](https://godoc.org/github.com/ravitri/aws-account-operator?status.svg)](https://pkg.go.dev/mod/github.com/ravitri/aws-account-operator)
 [![License](https://img.shields.io/:license-apache-blue.svg)](http://www.apache.org/licenses/LICENSE-2.0.html)
 
 ## General Overview

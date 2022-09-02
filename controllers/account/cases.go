@@ -8,9 +8,9 @@ import (
 	"github.com/aws/aws-sdk-go/service/support"
 	"github.com/go-logr/logr"
 
-	"github.com/openshift/aws-account-operator/api/v1alpha1"
-	"github.com/openshift/aws-account-operator/pkg/awsclient"
-	controllerutils "github.com/openshift/aws-account-operator/pkg/utils"
+	"github.com/ravitri/aws-account-operator/api/v1alpha1"
+	"github.com/ravitri/aws-account-operator/pkg/awsclient"
+	controllerutils "github.com/ravitri/aws-account-operator/pkg/utils"
 )
 
 const (

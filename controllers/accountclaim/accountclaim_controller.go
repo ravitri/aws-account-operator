@@ -4,11 +4,11 @@ import (
 	"context"
 	"fmt"
 	"github.com/go-logr/logr"
-	"github.com/openshift/aws-account-operator/config"
-	"github.com/openshift/aws-account-operator/controllers/account"
-	"github.com/openshift/aws-account-operator/pkg/awsclient"
-	"github.com/openshift/aws-account-operator/pkg/localmetrics"
-	controllerutils "github.com/openshift/aws-account-operator/pkg/utils"
+	"github.com/ravitri/aws-account-operator/config"
+	"github.com/ravitri/aws-account-operator/controllers/account"
+	"github.com/ravitri/aws-account-operator/pkg/awsclient"
+	"github.com/ravitri/aws-account-operator/pkg/localmetrics"
+	controllerutils "github.com/ravitri/aws-account-operator/pkg/utils"
 	corev1 "k8s.io/api/core/v1"
 	k8serr "k8s.io/apimachinery/pkg/api/errors"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
@@ -22,7 +22,7 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/client"
 	logf "sigs.k8s.io/controller-runtime/pkg/log"
 
-	awsv1alpha1 "github.com/openshift/aws-account-operator/api/v1alpha1"
+	awsv1alpha1 "github.com/ravitri/aws-account-operator/api/v1alpha1"
 )
 
 const (

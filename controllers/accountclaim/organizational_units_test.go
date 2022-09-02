@@ -1,7 +1,7 @@
 package accountclaim
 
 import (
-	"github.com/openshift/aws-account-operator/pkg/testutils"
+	"github.com/ravitri/aws-account-operator/pkg/testutils"
 	"testing"
 
 	"github.com/aws/aws-sdk-go/aws/awserr"
@@ -17,9 +17,9 @@ import (
 
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
-	awsv1alpha1 "github.com/openshift/aws-account-operator/api/v1alpha1"
-	"github.com/openshift/aws-account-operator/pkg/awsclient"
-	"github.com/openshift/aws-account-operator/pkg/awsclient/mock"
+	awsv1alpha1 "github.com/ravitri/aws-account-operator/api/v1alpha1"
+	"github.com/ravitri/aws-account-operator/pkg/awsclient"
+	"github.com/ravitri/aws-account-operator/pkg/awsclient/mock"
 )
 
 var _ = Describe("Organizational Unit", func() {

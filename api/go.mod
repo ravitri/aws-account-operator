@@ -1,4 +1,4 @@
-module github.com/openshift/aws-account-operator/api
+module github.com/ravitri/aws-account-operator/api
 
 go 1.17
 
